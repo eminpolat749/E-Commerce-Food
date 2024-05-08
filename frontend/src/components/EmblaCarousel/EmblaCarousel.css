@@ -1,0 +1,42 @@
+.embla {
+    overflow: hidden;
+}
+.embla__container {
+    display: flex;
+}
+.embla__slide {
+    flex: 0 0 100%;
+    min-width: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.embla__slide img {
+    width: 850px;
+    height: 500px;
+    border-radius: 15px;
+}
+@media(max-width:1280px) {
+    .embla__slide img {
+        width: 700px;
+        height: 370px;
+    }
+}
+@media(max-width:1024px) {
+    .embla__slide img {
+        width: 600px;
+        height: 290px;
+    }
+}
+@media(max-width:800px) {
+    .embla__slide img {
+        width: 480px;
+        height: 270px;
+    }
+}
+@media(max-width:500px) {
+    .embla__slide img {
+        width: 400px;
+        height: 200px;
+    }
+}
